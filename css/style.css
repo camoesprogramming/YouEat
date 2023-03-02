@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@media (max-width: 600px) {
+  body {
+    background: #E5E5E5;
+  }
+  
+  header {
+    background: #CF2B2B;
+    width: 100%;
+    position: fixed top;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+
+  header h1 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    margin-left: 21px;
+    padding-top: 8px;
+  }
+
+  header p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 21px;
+    margin-top: 5px;
+    padding-bottom: 18px;
+
+  }
+
+  h2 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+    margin-top: 31px;
+    margin-bottom: 17px;
+    margin-left: 19px;
+  }
+
+  .opcoes-comidas{
+    margin-left: 3px;
+    display: flex;
+    overflow-x:scroll ;
+  }
+
+  .opcoes-bebidas {
+    margin-left: 3px;
+    display: flex;
+    overflow-x:scroll;
+    margin-top: 17px;
+    
+  }
+
+  .opcoes-sobremesas {
+    margin-left: 3px;
+    display: flex;
+    overflow-x:scroll;
+    margin-top: 17px;
+    margin-bottom: 108px;
+  }
+
+  .card {
+    min-width: 172px;
+    height: 216px;
+    background: #F9f9f9;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-left: 16px;
+   
+  }
+
+  .card img {
+    width:144px;
+    height: 87px;
+    margin-top: 18px;
+    margin-left: 14px;
+  }
+
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-left: 15px;
+    margin-top: 8px;
+  }
+
+  .descritivo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+
+  .valor {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 5px;
+  margin-left: 14px;
+  }
+ 
+  footer {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 92px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botao {
+    width: 364px;
+    height: 61px;
+    background: #CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botao p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    max-width: 60%;
+  }
+
+
+}
