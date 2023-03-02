@@ -163,7 +163,7 @@
     border-radius: 9px;
   }
 
-  .fecha-pedido {
+  .botao-fecha-pedido {
     width: 364px;
     height: 61px;
     background: #32B72F;
@@ -174,7 +174,7 @@
     
   }
 
-  .fecha-pedido p {
+  .botao-fecha-pedido p {
     font-family: 'Roboto';
     text-align: center;
     font-style: normal;
