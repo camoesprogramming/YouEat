@@ -184,10 +184,123 @@
     letter-spacing: 0.018em;
     color: #FFFFFF;
   }
+  .tela-confirmacao {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+ 
+  .quadro-pedidos {
+    width: 94vw;
+    max-width: 372px;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 353px;
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+
+  /* hidden colocado por último pra sobrepor-se a qualquer display */
   .hidden {
     display: none;
   }
 
+  .quadro-pedidos h3 {
+    margin-top: 21px;
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .prato-comida-escolhido,.bebida-escolhida, .sobremesa-escolhida,.valor-total  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26px;
+    margin-top: 13px;
+    width:86%
 
+  }
+  
+  .prato-comida-escolhido p,.bebida-escolhida p, .sobremesa-escolhida p,.valor-total p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+  }
+  
+  .valor-total p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+  }
+
+  .botao-pode-pedir {
+    max-width: 329px;
+    height: 52px;
+    background-color: #fff;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botao-pode-pedir p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #50D074;
+  }
+
+  .botao-cancelar {
+    max-width: 329px;
+    height: 52px;
+    background-color: #50D074;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botao-cancelar p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+  }
+
+  
 }

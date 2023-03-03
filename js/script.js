@@ -69,11 +69,18 @@ function autorizaBotaoFecharPedido() {
       if (verificaCardSelecionadoSobremesa !== null) {
 // adicionamos a classe hidden no botao e retiramos a classe hidden do botao fecha-pedido
         const someBotao = document.querySelector(".botao");
+
         someBotao.classList.add('hidden');
+
         const adicionaBotao = document.querySelector(".botao-fecha-pedido");
-        
+
         adicionaBotao.classList.remove('hidden')
       }
     }
   }
+}
+
+// função para habilitar tela de confirmação de pedido
+function confirmaPedido() {
+
 }
