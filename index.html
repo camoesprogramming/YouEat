@@ -22,23 +22,23 @@
     
     <div class="card" onclick="selecionaCardComida(this)">
       <img src="./imgs/frango com batatas.jpg" alt="">
-      <h3 class="nome-prato">Frango e Batatas</h3>
+      <h3 class="nome-comida">Frango e Batatas</h3>
       <p class="descritivo">Um saboroso filé de frango com batata</p>
-      <p class="valor">R$ 19,90</p>
+      <p class="valor-comida">R$ 19,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardComida(this)">
       <img src="./imgs/Bife-a-Parmegiana-02-1920x1442.jpg" alt="">
-      <h3 class="nome-prato">Bife a parmegiana</h3>
+      <h3 class="nome-comida">Bife a parmegiana</h3>
       <p class="descritivo">Bife a parmegiana e arroz branco</p>
-      <p class="valor">R$ 24,90</p>
+      <p class="valor-comida">R$ 24,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardComida(this)">
       <img src="./imgs/tilapia com arroz.jpg" alt="">
-      <h3 class="nome-prato">Tilápia com arroz</h3>
+      <h3 class="nome-comida">Tilápia com arroz</h3>
       <p class="descritivo">Tilápia fresca com arroz branco</p>
-      <p class="valor">R$ 26,90</p>
+      <p class="valor-comida">R$ 26,90</p>
     </div>
    
   </section>
@@ -49,23 +49,23 @@
     
     <div class="card" onclick="selecionaCardBebida(this)">
       <img src="./imgs/coca-cola-lata-926x926.jpg" alt="">
-      <h3 class="nome-prato">Coquinha gelada</h3>
+      <h3 class="nome-bebida">Coquinha gelada</h3>
       <p class="descritivo">Uma lata de coca cola 350ml</p>
-      <p class="valor">R$ 4,90</p>
+      <p class="valor-bebida">R$ 4,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardBebida(this)">
       <img src="./imgs/guarana-antartica-lata.jpg" alt="">
-      <h3 class="nome-prato">Guaraná Lata</h3>
+      <h3 class="nome-bebida">Guaraná Lata</h3>
       <p class="descritivo">Uma lata de 350ml de guaraná antártica</p>
-      <p class="valor">R$ 4,90</p>
+      <p class="valor-bebida">R$ 4,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardBebida(this)">
       <img src="./imgs/Suco_de_laranja.jpg" alt="">
-      <h3 class="nome-prato">Suco de Laranja</h3>
+      <h3 class="nome-bebida">Suco de Laranja</h3>
       <p class="descritivo">Saboroso suco de laranja natural</p>
-      <p class="valor">R$ 26,90</p>
+      <p class="valor-bebida">R$ 9,90</p>
     </div>
    
   </section>
@@ -76,23 +76,23 @@
     
     <div class="card" onclick="selecionaCardSobremesa(this)">
       <img src="./imgs/brigadeiro.jpg" alt="">
-      <h3 class="nome-prato">Brigadeiro</h3>
+      <h3 class="nome-sobremesa">Brigadeiro</h3>
       <p class="descritivo">2 brigadeiros</p>
-      <p class="valor">R$ 3,90</p>
+      <p class="valor-sobremesa">R$ 3,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardSobremesa(this)">
       <img src="./imgs/mini pudim.jpg" alt="">
-      <h3 class="nome-prato">Mini Pudim</h3>
+      <h3 class="nome-sobremesa">Mini Pudim</h3>
       <p class="descritivo">Um mini pudim</p>
-      <p class="valor">R$ 7,90</p>
+      <p class="valor-sobremesa">R$ 7,90</p>
     </div>
     
     <div class="card" onclick="selecionaCardSobremesa(this)">
       <img src="./imgs/bolo-no-pote.jpg" alt="">
-      <h3 class="nome-prato">Bolo no Pote</h3>
+      <h3 class="nome-sobremesa">Bolo no Pote</h3>
       <p class="descritivo">bolo no pote sabor brigadeiro</p>
-      <p class="valor">R$ 12,90</p>
+      <p class="valor-sobremesa">R$ 12,90</p>
     </div>
    
   </section>
@@ -104,7 +104,7 @@
     </div>
   </footer>
 
-  <div class="tela-confirmacao ">
+  <div class="tela-confirmacao hidden">
     <div class="quadro-pedidos">
       <h3>Confirme seu pedido</h3>
       <div class="prato-comida-escolhido">
@@ -112,19 +112,19 @@
         <p class="valor-prato-comida">14,90</p>
       </div>
       <div class="bebida-escolhida">
-        <p class="nome-bebida">Coquinha gelada</p>
-        <p class="valor-bebida">4,90</p>
+        <p class="nome-bebida-escolhida">Coquinha Gelada</p>
+        <p class="valor-bebida-escolhida">4,90</p>
       </div>
       <div class="sobremesa-escolhida">
-        <p class="nome-sobremesa">Pudim</p>
-        <p class="valor-sobremsa">7,90</p>
+        <p class="nome-sobremesa-escolhida">Pudim</p>
+        <p class="valor-sobremsa-escolhida">7,90</p>
       </div>
       <div class="valor-total">
         <p>TOTAL</p>
         <p class="soma-valores">R$ 27,70</p>
       </div>
-      <div class="botao-pode-pedir"><p>Tudo certo, pode pedir!</p></div>
-      <div class="botao-cancelar"><p>Cancelar</p></div>
+      <div class="botao-pode-pedir" onclick="chamaWhatsApp()"><p>Tudo certo, pode pedir!</p></div>
+      <div class="botao-cancelar" onclick="cancelarPedido()"><p>Cancelar</p></div>
 
     </div>
     
